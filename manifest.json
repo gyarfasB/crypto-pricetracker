@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Crypto Price Tracker",
+    "version": "1.0",
+    "description": "Track the latest prices of your favorite cryptocurrencies.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/ico16.png",
+        "32": "icons/ico32.png",
+        "128": "icons/ico128.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "https://api.coingecko.com/"
+    ]
+  }
+  
